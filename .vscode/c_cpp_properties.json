@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${default}",
+                "**/include/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "gnu99",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-clang-x64",
+            "compilerArgs": [
+                "-ffreestanding",
+                "-Wall",
+                "-Wextra",
+                "-Werror",
+                "-mcmodel=large",
+                "-mno-red-zone",
+                "-std=gnu99",
+                "-mno-mmx",
+                "-mno-sse",
+                "-O0",
+                "-g"
+            ]
+        }
+    ],
+    "version": 4
+}

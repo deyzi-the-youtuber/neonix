@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "ops.h": "c",
+        "compiler.h": "c",
+        "limine.h": "c"
+    }
+}

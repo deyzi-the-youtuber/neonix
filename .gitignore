@@ -1,0 +1,9 @@
+# Object files
+*.o
+
+# Bootable files
+*.iso
+
+# VS-Code related things
+.vscode/
+.cache/
